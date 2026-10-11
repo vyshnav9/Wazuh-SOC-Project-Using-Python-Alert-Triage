@@ -1,0 +1,53 @@
+# Phase 1: Lab Setup — Wazuh All-in-One Server
+
+## Overview
+The objective of Phase 1 is to set up and verify a Wazuh all-in-one server
+for a Security Operations Center (SOC) home lab.
+
+This phase establishes the foundation for endpoint monitoring, security
+event detection, alert analysis, and automated incident triage.
+
+## Objectives
+- Verify the Ubuntu operating system and system requirements.
+- Check CPU, RAM, disk space, and network configuration.
+- Install the Wazuh all-in-one server.
+- Verify the Wazuh manager, indexer, and dashboard services.
+- Confirm that the Wazuh dashboard is accessible.
+- Prepare the environment for Ubuntu agent onboarding.
+
+## Architecture
+The Wazuh all-in-one deployment includes:
+
+1. Wazuh Manager — analyzes security events and generates alerts.
+2. Wazuh Indexer — stores and indexes security data.
+3. Wazuh Dashboard — provides a web interface for monitoring and analysis.
+
+## Environment
+- Operating System: Ubuntu
+- Security Monitoring Platform: Wazuh
+- Deployment: All-in-One Server
+- Project Type: SOC Lab
+- Purpose: Security monitoring and alert investigation
+
+## Verification
+The following checks are performed:
+
+- Verify the Ubuntu version.
+- Check available CPU, RAM, and disk space.
+- Verify the status of Wazuh services.
+- Confirm that the dashboard opens successfully.
+
+## Expected Outcome
+A functioning Wazuh all-in-one server ready for the next phase:
+Ubuntu endpoint agent onboarding.
+
+## Security Considerations
+- Keep the lab on a private network.
+- Do not expose the Wazuh dashboard directly to the public internet.
+- Protect administrator credentials and other secrets.
+- Use sanitized screenshots and synthetic data in public documentation.
+
+## Project Status
+Phase 1: Lab Setup
+
+Status: Update after completing installation and verification.
