@@ -1,0 +1,60 @@
+# Phase 2: Ubuntu Endpoint Agent Onboarding
+
+## Overview
+
+This phase connects an Ubuntu endpoint to the Wazuh
+manager for centralized security monitoring.
+
+## Objectives
+
+- Install the Wazuh agent.
+- Configure the Wazuh manager address.
+- Start and enable the agent service.
+- Verify agent connectivity.
+- Confirm the endpoint status in the Wazuh dashboard.
+
+## Environment
+
+- Endpoint OS: Ubuntu
+- Security Platform: Wazuh
+- Server Component: Wazuh Manager
+- Endpoint Component: Wazuh Agent
+
+## Implementation
+
+### 1. Agent Installation
+
+Installed the Wazuh agent on the Ubuntu endpoint
+using the official Wazuh documentation.
+
+### 2. Configuration
+
+Configured the agent to communicate with the
+Wazuh manager using its reachable IP address.
+
+### 3. Service Verification
+
+Checked the agent service using:
+
+sudo systemctl status wazuh-agent
+
+### 4. Agent Connectivity
+
+Verified the endpoint status using the Wazuh
+dashboard and the manager's agent list.
+
+## Results
+
+Update this section with the actual result.
+
+## Evidence
+
+Add screenshots showing:
+- Agent service status
+- Wazuh dashboard with the endpoint status
+- Agent list from the manager terminal
+
+## Project Status
+
+Update to Completed only after confirming that
+the endpoint is Active in Wazuh.
